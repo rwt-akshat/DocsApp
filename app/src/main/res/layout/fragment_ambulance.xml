@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="30dp"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/editHospital"
+        android:inputType="text"
+        android:singleLine="true"
+        android:background="@drawable/grid_back"
+        android:paddingLeft="30dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hospital Name" />
+
+    <EditText
+        android:id="@+id/etnoOfAmbulance"
+        android:background="@drawable/grid_back"
+        android:paddingLeft="30dp"
+        android:paddingTop="15dp"
+        android:singleLine="true"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editHospital"
+        android:hint="Available Ambulance" />
+
+    <EditText
+        android:id="@+id/editContact"
+        android:singleLine="true"
+        android:background="@drawable/grid_back"
+        android:paddingLeft="30dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etnoOfAmbulance"
+        android:hint="Contact" />
+
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:background="#008577"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        android:padding ="10dp"
+        android:text="First Wealth Is Health"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:elevation="20dp"
+        android:paddingRight="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/heart" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:indeterminateTint="@android:color/holo_purple" />
+
+</RelativeLayout>
